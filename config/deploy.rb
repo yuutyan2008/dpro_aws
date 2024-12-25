@@ -4,7 +4,7 @@ lock "~> 3.19.2"
 set :application, "my_app_name"
 # set :repo_url, "git@example.com:me/my_repo.git"
 
-set :application, "blog_app"
+# set :application, "blog_app"
 set :repo_url, "https://github.com/yuutyan2008/dpro_aws.git"
 set :bundle_without, %w{test}.join(':')
 set :rbenv_ruby, '3.3.0'
