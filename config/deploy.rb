@@ -14,7 +14,7 @@ set :keep_releases, 5
 set :linked_files, %w{config/secrets.yml}   # 4
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
 
-after 'deploy:published', 'deploy:seed'   # 9
+# after 'deploy:published', 'deploy:seed'   # 9
 after 'deploy:finished', 'deploy:restart'   # 10
 
 # namespace :deploy do
