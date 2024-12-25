@@ -83,4 +83,4 @@ test:
 production:
   <<: *default
   database: blog_app_production
-  password: <%= ENV['BLOG_APP_DATABASE_PASSWORD'] %>
+  password: new_password
