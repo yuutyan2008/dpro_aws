@@ -8,6 +8,7 @@ set :application, "blog_app"
 set :repo_url, "https://github.com/yuutyan2008/dpro_aws.git"
 set :bundle_without, %w{test}.join(':')
 set :rbenv_ruby, '3.3.0'
+append :linked_files, 'config/secrets.yml'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
