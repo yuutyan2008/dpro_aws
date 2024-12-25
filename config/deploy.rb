@@ -5,9 +5,9 @@ set :application, "my_app_name"
 set :repo_url, "git@example.com:me/my_repo.git"
 
 set :application, "blog_app"
-set :repo_url, "https://github.com/kei-kamiguchi/blog_app.git"
+set :repo_url, "https://github.com/yuutyan2008/dpro_aws.git"
 set :bundle_without, %w{test}.join(':')
-set :rbenv_version, '3.3.0'
+set :rbenv_ruby, '3.3.0'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
