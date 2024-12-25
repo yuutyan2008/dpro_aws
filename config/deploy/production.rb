@@ -51,7 +51,7 @@
 # ------------------------------------
 server "18.176.32.172",
   user: "ec2-user",
-  roles: %w{web app},
+  roles: %w{web app db},
   ssh_options: {
     keys: %w(/Users/arasesatomi/AWS/key_pem/AWS_key_satomi.pem),
     forward_agent: false,
